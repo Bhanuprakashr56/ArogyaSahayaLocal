@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593978437064",
+    "project_id": "arogyasahaya-a2b2e",
+    "storage_bucket": "arogyasahaya-a2b2e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593978437064:android:14141e38f19486def824fd",
+        "android_client_info": {
+          "package_name": "com.arogyasahaya.local"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593978437064-k86te694svot5qmtv1sehce35fg1pjl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCayzm9N5PDatqeS6px7upJ2c6I3qyXVRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593978437064-k86te694svot5qmtv1sehce35fg1pjl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Add Medicine" android:textColor="@color/green_200"
+            android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="24dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMedicineName"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="Medicine Name" android:textSize="18sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDosage"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:hint="Dosage (e.g. 1 tablet, 5 mg)" android:textSize="18sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="When to take?" android:textColor="@color/white"
+            android:textSize="18sp" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgTiming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp">
+
+            <RadioButton android:id="@+id/rbMorning"
+                android:layout_width="match_parent" android:layout_height="60dp"
+                android:text="🌅  Morning  (8:00 AM)" android:textColor="@color/white"
+                android:textSize="18sp" android:buttonTint="@color/green_500" android:layout_marginBottom="8dp"/>
+
+            <RadioButton android:id="@+id/rbAfternoon"
+                android:layout_width="match_parent" android:layout_height="60dp"
+                android:text="☀️  Afternoon  (1:00 PM)" android:textColor="@color/white"
+                android:textSize="18sp" android:buttonTint="@color/green_500" android:layout_marginBottom="8dp"/>
+
+            <RadioButton android:id="@+id/rbNight"
+                android:layout_width="match_parent" android:layout_height="60dp"
+                android:text="🌙  Night  (8:00 PM)" android:textColor="@color/white"
+                android:textSize="18sp" android:buttonTint="@color/green_500"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSaveMedicine"
+            android:layout_width="match_parent" android:layout_height="60dp"
+            android:text="Set Reminder" android:textSize="18sp"
+            android:backgroundTint="@color/green_500"/>
+    </LinearLayout>
+</ScrollView>

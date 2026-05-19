@@ -1,0 +1,11 @@
+<resources>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--  Added: used as background in activity layouts  -->
+    <color name="bg_dark">#FF121212</color>
+</resources>
