@@ -28,11 +28,19 @@
 ---
 ## 📱 Screenshots
 
-| Home Screen | Medicine Screen | Reminder Screen |
-|-------------|-----------------|-----------------|
-| <img src="screenshots/home.png" width="200"/> | <img src="screenshots/medicine.png" width="200"/> | <img src="screenshots/reminder.png" width="200"/> |
----
+<p align="center">
+  <img src="login.jpeg" width="220" alt="Login Screen"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="home.jpeg" width="220" alt="Home Screen"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="pill_reminder.jpeg" width="220" alt="Pill Reminder"/>
+</p>
 
+<p align="center">
+  <b>Login</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Home Dashboard</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Pill Reminder</b>
+</p>
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository**:
