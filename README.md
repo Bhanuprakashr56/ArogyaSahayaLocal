@@ -26,9 +26,6 @@
 - **Authentication**: Firebase Auth
 
 ---
-
-## 📸 Screenshots
-
 ## 📱 Screenshots
 
 | Home Screen | Medicine Screen | Reminder Screen |
