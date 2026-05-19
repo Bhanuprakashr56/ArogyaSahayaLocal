@@ -29,10 +29,11 @@
 
 ## 📸 Screenshots
 
-| Dashboard | Pill Reminder | ASHA Connect |
-| :---: | :---: | :---: |
-| ![Main Screen](https://via.placeholder.com/200x400?text=Dashboard) | ![Reminders](https://via.placeholder.com/200x400?text=Pill+Reminder) | ![ASHA Events](https://via.placeholder.com/200x400?text=ASHA+Connect) |
+## 📱 Screenshots
 
+| Home Screen | Medicine Screen | Reminder Screen |
+|-------------|-----------------|-----------------|
+| <img src="screenshots/home.png" width="200"/> | <img src="screenshots/medicine.png" width="200"/> | <img src="screenshots/reminder.png" width="200"/> |
 ---
 
 ## ⚙️ Installation & Setup
